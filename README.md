@@ -5,6 +5,7 @@
 1. `npm install` in frontend
 2. `npm install` in backend
 3. Add .env file in the backend folder
+4. Remove .git file also
 
 ```env
 PORT = 5000
