@@ -5,14 +5,10 @@ import { Pages } from "./pages/Pages";
 
 function App() {
   return (
-  <HashRouter>
-  <Switch>
-  {/* <Router> */}
+  <Router>
     <Route path="/" component={Home} exact />
     <Route path="/pages" component={Pages} exact />
-  {/* </Router> */}
-  </Switch>
-  </HashRouter>
+  </Router>
 );
 }
 
