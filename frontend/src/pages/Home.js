@@ -7,7 +7,7 @@ export const Home = () => {
 
   useEffect(()=>{
     const func = async() => {
-      const res = await axios.get("/api/getreq")
+      const res = await axios.get("http://127.0.0.1:5000/api/getreq")
       setData(res.data)
     }
     func()
